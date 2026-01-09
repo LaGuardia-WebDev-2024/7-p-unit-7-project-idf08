@@ -8,8 +8,33 @@ void setup() {
 
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
- 
-  background(255,255,255,0);
+   fill(255,255,255);
+  strokeWeight(3);
+
+background(255,255,255,0);
+
+ellipse(200, 300, 150, 150); ;//body
+  ellipse(200, 200, 100, 100);
+  ellipse(200, 120, 75, 75);
+  ellipse(200, 200, 3, 3)
+ellipse(200, 300, 3, 3)
+fill(150, 75, 0)
+line(252, 210, 282, 228)
+
+
+  
+  fill(0, 0, 0) ;//tophat
+  ellipse(200, 80, 75, 15);
+  rect(185, 20, 30, 60)
+  fill(200, 0, 0)
+  rect(185, 60, 30, 10)
+
+
+fill(0,0,0) ;///face
+ellipse(185, 110, 5, 5)
+ellipse(215, 110, 5, 5)
+ellipse(210, 135, 5, 5);
+
   
 
 
