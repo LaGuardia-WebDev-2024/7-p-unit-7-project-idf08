@@ -19,9 +19,9 @@ ellipse(200, 300, 150, 150); ;//body
   ellipse(200, 200, 3, 3)
 ellipse(200, 300, 3, 3)
 fill(150, 75, 0)
-line(252, 210, 282, 228)
-
-
+//line(252, 210, 282, 228)
+line(252, 210, 282, mouseY)
+line(151, 210, 122, mouseY)
   
   fill(0, 0, 0) ;//tophat
   ellipse(200, 80, 75, 15);
