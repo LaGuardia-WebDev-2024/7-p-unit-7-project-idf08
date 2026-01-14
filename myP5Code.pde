@@ -4,6 +4,9 @@ void setup() {
 }
 
 //🎯Variable Declarations Go Here
+var randRed = random(0,255)
+var randGreen = random(0,255)
+var randBlue = random(0,255)
 
 
 //🟢Draw Procedure - Runs on Repeat
@@ -26,7 +29,7 @@ line(151, 210, 122, mouseY)
   fill(0, 0, 0) ;//tophat
   ellipse(200, 80, 75, 15);
   rect(185, 20, 30, 60)
-  fill(200, 0, 0)
+  fill(randRed, randGreen, randBlue)
   rect(185, 60, 30, 10)
 
 
@@ -42,7 +45,10 @@ ellipse(210, 135, 5, 5);
 
 
 
-  if(mousePressed){showXYPositions();}
+  if(mousePressed){showXYPositions();
+  randRed = random(0,255)
+ randGreen = random(0,255)
+ randBlue = random(0,255)}
 
 }
 
